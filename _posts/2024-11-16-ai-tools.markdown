@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "AI tools I'm Using to rapidly flesh out random ideas I've had"
+categories: random_ideas ai
+tags: ai rapid_prototyping tools
+---
+# AI Tools I like
+
+## Chat Agents
+- Claude
+  - I'm paying for this one, so I'm using it. Good for code snippets
+- ChatGPT
+  - Obviously nice - I love talking to their advanced speech model. It's a great way to flesh ideas out without typing
+
+## For accumulating work
+- Notebook LLM
+  - Just started using this and I love it. It's an intuitive way to chat about a specific corpus of work and ideas.
+  - Their podcast generation is also really neat. I intend to use it to generate a podcast for every blog post I make.
+
+## Coding
+- Chat GPT & Claude (Also Cursor and the Copilot)
+
+## Wireframing
+- https://app.uizard.io/
+  - Seems neat, but not a very generous free tier
+  - was simple and fast enough to be interesting see my Collaborative Storytelling post for generated images
+- Midjourney
+  - Just makes great stuff, not necessarily the best at constructing ui last time i used it, but might be valuable
+
+
+# Tools I didn't find much value in:
+## app.visily.ai
+  - AI wireframing / designing
+    - Just gave really mid-tier flowchart results. 
+    - Maybe it could do better if I prompt-engineered more effectively
+    - Check Collaborative Storytelling post for example diagram
+

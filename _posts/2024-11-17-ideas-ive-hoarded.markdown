@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Ideas I've Hoarded
-date:   2024-11-16 13:34:20 -0800
 categories: random_ideas
 tags: ideas
 ---

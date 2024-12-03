@@ -9,6 +9,9 @@ tags: ideas, story_telling
 
 *Context*: I started writing this article when I first had the idea for Fork-Off. I had a good sense of what it would look like but not much else. The entirety of the text you see here is generated as a conversation with ChatGPT-4o using desktop view or whatever its called. I started working around 7:45.
 
+Original Post Date: Nov. 16, 2024
+Last Updated:
+
 ---
 
 ### Elevator Pitch
@@ -724,3 +727,237 @@ With this base setup, you can start adding features like:
 
 --- 
 <br/><br/><br/>
+
+
+<br/>
+
+### **Prompt**: 
+Let's add multiplayer logic. Give me steps to do that. 
+
+### **Response**: step-by-step guide
+
+1. Define Multiplayer Requirements
+
+	•	Room Management:
+	•	Players can create or join a room via a unique room ID.
+	•	The room stores the current story, forks, votes, and player list.
+	•	Real-Time Updates:
+	•	Story and fork updates propagate to all players in the room.
+	•	Votes are synced in real-time.
+	•	Player Management:
+	•	Players are identified by unique nicknames or user IDs.
+	•	Optionally allow the host to manage the room (e.g., kick players, start rounds).
+
+2. Update Firestore Database Structure
+
+Modify Firestore to support multiplayer rooms. Suggested structure:
+
+Firestore Collections and Documents:
+
+	1.	rooms (Collection)
+	•	{roomId} (Document)
+	•	story (Array): Stores the current story progression.
+	•	forks (Array): Current forks for voting.
+	•	votes (Object): Tracks votes per fork ({forkId: voteCount}).
+	•	players (Array): List of player nicknames.
+	•	host (String): Host player’s ID.
+	•	status (String): Game status (e.g., waiting, in-progress, finished).
+
+3. Modify Firebase Setup
+
+Add Room-Related Functions
+
+In your firebaseConfig.js, include functions for room creation, joining, and real-time syncing:
+
+import { db } from "./firebaseConfig";
+import { doc, setDoc, getDoc, updateDoc, onSnapshot, arrayUnion } from "firebase/firestore";
+
+// Create a new room
+export const createRoom = async (hostNickname) => {
+  const roomId = Math.random().toString(36).substr(2, 6); // Generate a 6-char room ID
+  const roomRef = doc(db, "rooms", roomId);
+  await setDoc(roomRef, {
+    story: ["Once upon a time..."],
+    forks: [],
+    votes: {},
+    players: [hostNickname],
+    host: hostNickname,
+    status: "waiting",
+  });
+  return roomId;
+};
+
+// Join an existing room
+export const joinRoom = async (roomId, nickname) => {
+  const roomRef = doc(db, "rooms", roomId);
+  const roomSnap = await getDoc(roomRef);
+
+  if (!roomSnap.exists()) {
+    throw new Error("Room not found");
+  }
+
+  const roomData = roomSnap.data();
+  if (roomData.players.includes(nickname)) {
+    throw new Error("Nickname already taken in this room");
+  }
+
+  await updateDoc(roomRef, {
+    players: arrayUnion(nickname),
+  });
+};
+
+// Subscribe to room updates
+export const subscribeToRoom = (roomId, onUpdate) => {
+  const roomRef = doc(db, "rooms", roomId);
+  return onSnapshot(roomRef, (doc) => {
+    onUpdate(doc.data());
+  });
+};
+
+// Update votes
+export const castVoteInRoom = async (roomId, forkId) => {
+  const roomRef = doc(db, "rooms", roomId);
+  await updateDoc(roomRef, {
+    [`votes.${forkId}`]: (prev) => (prev || 0) + 1,
+  });
+};
+
+4. Update the useStory Hook
+
+Refactor the useStory hook to integrate room management and real-time updates.
+
+import { useState, useEffect } from "react";
+import { createRoom, joinRoom, subscribeToRoom, castVoteInRoom } from "../firebaseService";
+
+const useStory = (roomId, nickname) => {
+  const [story, setStory] = useState([]);
+  const [forks, setForks] = useState([]);
+  const [votes, setVotes] = useState({});
+  const [players, setPlayers] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    if (!roomId) return;
+
+    const unsubscribe = subscribeToRoom(roomId, (roomData) => {
+      setStory(roomData.story);
+      setForks(roomData.forks);
+      setVotes(roomData.votes);
+      setPlayers(roomData.players);
+    });
+
+    return unsubscribe;
+  }, [roomId]);
+
+  const castVote = async (forkId) => {
+    try {
+      await castVoteInRoom(roomId, forkId);
+    } catch (err) {
+      console.error("Error casting vote:", err);
+      setError("Failed to cast vote");
+    }
+  };
+
+  return { story, forks, votes, players, loading, error, castVote };
+};
+
+export default useStory;
+
+5. Update the StoryGame Component
+
+Update your React component to handle room creation, joining, and voting.
+
+Add Room Management UI
+
+import React, { useState } from "react";
+import { createRoom, joinRoom } from "./firebaseService";
+import useStory from "./hooks/useStory";
+
+const StoryGame = () => {
+  const [roomId, setRoomId] = useState(null);
+  const [nickname, setNickname] = useState("");
+  const [isHost, setIsHost] = useState(false);
+
+  const { story, forks, players, votes, castVote } = useStory(roomId, nickname);
+
+  const handleCreateRoom = async () => {
+    const newRoomId = await createRoom(nickname);
+    setRoomId(newRoomId);
+    setIsHost(true);
+  };
+
+  const handleJoinRoom = async (roomIdToJoin) => {
+    await joinRoom(roomIdToJoin, nickname);
+    setRoomId(roomIdToJoin);
+  };
+
+  return (
+    <div>
+      {!roomId ? (
+        <div>
+          <input
+            type="text"
+            placeholder="Enter your nickname"
+            value={nickname}
+            onChange={(e) => setNickname(e.target.value)}
+          />
+          <button onClick={handleCreateRoom}>Create Room</button>
+          <button
+            onClick={() => {
+              const roomIdToJoin = prompt("Enter room ID:");
+              handleJoinRoom(roomIdToJoin);
+            }}
+          >
+            Join Room
+          </button>
+        </div>
+      ) : (
+        <div>
+          <h1>Room ID: {roomId}</h1>
+          <h2>Players:</h2>
+          <ul>
+            {players.map((player) => (
+              <li key={player}>{player}</li>
+            ))}
+          </ul>
+          <h2>Story So Far:</h2>
+          <p>{story.join(" ")}</p>
+          <h2>Vote for the Next Fork:</h2>
+          {forks.map((fork) => (
+            <div key={fork.id}>
+              <p>{fork.content}</p>
+              <button onClick={() => castVote(fork.id)}>
+                Vote ({votes[fork.id] || 0})
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default StoryGame;
+
+6. Test and Debug
+
+	1.	Test Room Creation:
+	•	Ensure a host can create a room and see the initial state.
+	2.	Test Room Joining:
+	•	Validate that new players can join and sync with the current game state.
+	3.	Test Real-Time Sync:
+	•	Ensure story updates, votes, and player lists are synchronized across all clients.
+
+7. Optional Enhancements
+
+	•	Tiebreakers:
+	•	Add logic to handle ties (e.g., random selection or host decision).
+	•	Chat Integration:
+	•	Allow players to chat within a room for added collaboration.
+	•	Host Controls:
+	•	Let hosts kick players or end the game.
+	•	Game Timers:
+	•	Add timers to rounds for a more dynamic experience.
+
+This setup enables real-time multiplayer gameplay using Firebase Firestore. Let me know if you’d like further help with advanced features or optimizations!

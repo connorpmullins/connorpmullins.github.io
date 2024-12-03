@@ -5,7 +5,13 @@ categories: mental_models
 tags: mental_models morality
 ---
 
-*Disclaimer - I reserve the right to not be profound. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk.*
+*Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk.*
+
+Original Post Date: Nov. 17, 2024
+Last Updated:
+
+~ CONNOR: Don't bury the lead - summarize my point (I'm cautiously optimistic about the future and I'm happy with the present) at the top
+
 <br>
 ## Baselines for this discussion
 ---
@@ -105,6 +111,13 @@ tags: mental_models morality
 
 <br>
 ## Me as your content nutritionist (you eat like shit, of course you feel like shit)
+---
+<br>
+
+
+## Deaths of despair and addressing mental health crisis
+- Is it worse now than before?
+- How hard of a problem is this?
 ---
 <br>
 

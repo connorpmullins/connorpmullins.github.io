@@ -5,7 +5,9 @@ categories: mental_models
 tags: mental_models content ai collaborative_storytelling future_trends
 ---
 
-*Disclaimer - I reserve the right to not be profound. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk.*
+*Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk.*
+Original Post Date: Nov. 16, 2024
+Last Updated:
 
 ## The Social Role of Content
 Content serves two fundamental purposes:

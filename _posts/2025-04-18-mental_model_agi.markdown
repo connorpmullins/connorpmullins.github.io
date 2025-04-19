@@ -18,7 +18,7 @@ _Disclaimer - I'm getting this out of my head for my own sake and will improve t
 
 ## Overview
 
-There's a lot of discussion right now about what constitutes AGI, what are AGI timelines, when work is going to get automated, when we'll have an explosion in GDP rates, etc...
+There's a lot of discussion right now about what constitutes AGI, AGI timelines, when work is going to get automated, when we'll have an explosion in GDP rates, etc...
 This is my mental model for how I think about these questions.
 
 ## A definition of `IMPORTANT THINGS` or "what do people actually care about?"

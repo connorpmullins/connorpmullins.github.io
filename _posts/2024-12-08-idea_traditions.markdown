@@ -8,7 +8,7 @@ tags: ideas, culture,
 Original Post Date: Dec. 8, 2024
 Last Updated:
 
-_Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
+_Disclaimer - I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
 
 <br/>
 
@@ -488,8 +488,7 @@ In essence, whether through fireworks, lanterns, samba, or sacred rites, each so
 - July:
   - 4th: Independence Day
   - 30th: International Day of Friendship (& Celebrating Global Diversity)
-- August:
-  -
+- ## August:
 
 **Fall (September, October, November)**
 
@@ -508,5 +507,4 @@ In essence, whether through fireworks, lanterns, samba, or sacred rites, each so
   - Birth, Death, Graduation, Marriage, Retirement, Birthdays, Anniversaries
 - Things that occur more than once a year
   - Full Moons, Block Parties, Weekly dinners
-- Things I don't have a date for yet
-  -
+- ## Things I don't have a date for yet

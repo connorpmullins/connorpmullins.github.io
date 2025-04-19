@@ -8,7 +8,7 @@ tags: mental_models
 Original Post Date:
 Last Updated:
 
-_Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
+_Disclaimer - I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
 
 <br/>
 

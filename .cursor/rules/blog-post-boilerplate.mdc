@@ -1,0 +1,66 @@
+---
+description: useful when creating a new blog post, boilerplate
+globs: 
+alwaysApply: false
+---
+# Blog Post Boilerplate Generator
+
+Rule for automatically generating blog post boilerplates when requested.
+
+<rule>
+name: blog_post_boilerplate
+description: Automatically generates a new blog post boilerplate with standard structure
+filters:
+  - type: content
+    pattern: "make the boilerplate for a new post for me"
+  - type: event
+    pattern: "message"
+
+actions:
+  - type: create_file
+    template: |
+      ---
+      layout: post
+      title: "New Post Title"
+      categories: 
+      tags: 
+      ---
+
+      Original Post Date: {{current_date}}
+      Last Updated:
+
+      _Disclaimer - I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
+
+      <br/>
+
+      ---
+
+      <br/>
+
+      ## Summary:
+
+      ## Main Content:
+
+      ## Key Takeaways:
+
+      ## References:
+    target: "_posts/{{current_date}}-new-post.markdown"
+    variables:
+      current_date: "YYYY-MM-DD"
+
+  - type: suggest
+    message: |
+      I've created a new blog post boilerplate for you. You can now:
+      1. Rename the file to something more descriptive
+      2. Update the title in the front matter
+      3. Add appropriate categories and tags
+      4. Start writing your content in the sections provided
+
+examples:
+  - input: "make the boilerplate for a new post for me"
+    output: "Created new blog post boilerplate at _posts/YYYY-MM-DD-new-post.markdown"
+
+metadata:
+  priority: medium
+  version: 1.0
+</rule> 

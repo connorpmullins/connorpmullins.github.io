@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Mental Model: AGI and Timelines"
-categories: mental_models,
-tags: mental_models, ai, agi
+categories: mental_models
+tags: mental_models ai agi
 ---
 
 Original Post Date: Apr. 18, 2025
@@ -16,10 +16,17 @@ _Disclaimer - I'm getting this out of my head for my own sake and will improve t
 
 <br/>
 
-## Overview
+## Summary:
 
-There's a lot of discussion right now about what constitutes AGI, AGI timelines, when work is going to get automated, when we'll have an explosion in GDP rates, etc...
-This is my mental model for how I think about these questions.
+This is my mental model for thinking about what constitutes artificial general intelligence and realistic timelines for when we'll feel its impact on society's most important aspects.
+
+It's intended to contrast a lot of the discussion I currently see around related topics, which is often too theoretical / divorced from real-world impacts. It also focuses on bear-case timelines / avoids ASI scenarios, which have been discussed elsewhere.
+
+<br/>
+
+---
+
+<br/>
 
 ## A definition of `IMPORTANT THINGS` or "what do people actually care about?"
 
@@ -40,28 +47,30 @@ This is my mental model for how I think about these questions.
   - we don't hate ourselves (society is not founded on suffering (or, dystopically, not perceived to be founded on suffering))
   - there's enough expectation of social stability to make long term plans
 
-Notably absent from th above list is "economic wellbeing". I'm considering economic wellbeing to be a proxy for the above, deeper, values.
+Notably absent from the above list is "economic wellbeing." I'm considering economic wellbeing to be a proxy for the above, deeper, values.
 
 ## What is AGI?
 
 - Technical definitions aside, "AGI" is artificial intelligence that broadly and fundamentally changes `IMPORTANT THINGS`
   - Interesting point here is that this broadens the definition of AGI to include the scaffolding we build around it
-    - We weren't waiting for coal to get sufficiently advanced for the Industrial Revolution to create a step-function change to `IMPORTANT THINGS`.
+    - We weren't waiting for coal to get sufficiently advanced for the Industrial Revolution to create a step-function change to `IMPORTANT THINGS` (sorry, imperfect metaphor)
     - The scaffolding of society and other technological innovation is what made the Industrial Revolution possible
   - Two words in the above definition that are doing a lot of heavy lifting:
     - "broadly" - Google's search algorithm fundamentally changed how we access information, but doesn't have the breadth of ability/impact to be termed AGI
       - To be slightly more specific about "broadly", let's say it requires having an impact in each larger category of "life", "liberty", and "pursuit of happiness"
     - "fundamentally" - some people are using ChatGPT to get medical advice, do work, and act in freeing ways they couldn't around others. But these changes aren't yet fundamental enough to peoples' lived realities to be considered AGI (though perhaps current models could be given sufficient scaffolding)
-      - Though in mid-2025 I think there's still a "lack of breadth" issue with current models as well
+      - Though in mid-2025 I _think_ there's still a "lack of breadth" issue with current models as well
 
 ## What could a fundamental change to each `IMPORTANT THING` look like?
 
+Note that this is a random sampling meant to illustrate the types of changes that could occur. It's not exhaustive or ranked, and not all changes are equally likely.
+
 ### Physical wellbeing:
 
-- personalized healthcare
-- new medical discoveries
-- improved monitoring of health
-- greater access to healthcare for more people
+- Personalized healthcare
+- New medical discoveries
+- Improved monitoring of health
+- Greater access to healthcare for more people
 
 ### Mental Wellbeing
 
@@ -79,15 +88,16 @@ Notably absent from th above list is "economic wellbeing". I'm considering econo
 
 - General surplus of energy and resources through improved material transformations means that there's access to as much as people can practically consume
 - Every person has access to space and privacy
-  - Total digression: there are 57.5 million square miles of land on earth (https://www.quora.com/What-is-the-total-land-area-of-the-Earth). Assuming a population of 10b, that's 0.0057 sq. mi. or 3.6 acres per person. This is a naive / ridiculous way of looking at things, but it's a fun ballpark number.
+  - Total digression: there are 57.5 million square miles of land on earth. Assuming a population of 10B, that's 0.0057 sq. mi. or 3.6 acres per person. This is a naive/ridiculous way of looking at things, but it's a fun ballpark number.
 - Freedom from tyranny
   - This is harder to imagine, but a post-AGI/ASI world may help secure liberal ideals for many
 - Freedom from persecution
-  - Again - better governance. Alternatively interacting with AIs provides judgement-free spaces for people to be themselves (ideally helping resolve inner turmoil but in bad scenarios enabling vice)
+  - Again - better governance. Alternatively interacting with AIs provides judgment-free spaces for people to be themselves (ideally helping resolve inner turmoil but in bad scenarios enabling vice)
 
 ### Access to Opportunity
 
 - Equality as a starting point (significantly decreasing wealth's impact on opportunity)
+- Personalized education for all
 
 ### Access to Resources
 
@@ -155,10 +165,19 @@ Even if SOTA models barely improve over the next couple years, I think it's like
 
 If SOTA models plateau, we will still likely see a reshaping of the types of labor people do in the next 2-6 years. This will impact intelligence workers first. The impacts will also be a result of scaffolding as much as the models themselves - as agency is required to facilitate or replace labor. This change could be either positive or negative, but the change will be fundamental for many people. A positive outcome would be that intelligence workers have their productivity multiplied and are able to spur new waves of innovation. A negative outcome could be the loss of jobs to Language Models through labor price arbitrage similar to what we've seen with off-shoring. I'm interested in exploring this more, but for now it's enough to just say that a large portion of western society will fundamentally feel the impacts of AI on their work in 2-6 years.
 
-## Conclusion
+## Key Takeaways:
 
-"AGI" isn't a single technology. It's both the core technology and the ecosystem of technological and social scaffolding that enables it to broadly and fundamentally change `IMPORTANT THINGS` in peoples' lives. Even in a timeline where AI ability plateaus in the near future, scaffolding around current models will enable sufficient depth and breadth of impact to `IMPORTANT THINGS` that my definition of AGI will be achieved with 2-6 years. These changes will not roll out evenly, indeed we are already feeling deep impact in certain areas. But society as a whole will recognize that we're in a new technological era in this time frame - regardless of whether the term "AGI" is applied.
+- "AGI" isn't a single technology but a combination of core AI capabilities and the societal scaffolding that enables fundamental change
+- Even if AI capability plateaus soon, the impacts will be broadly felt within 2-6 years
+- The changes will likely first emerge in scientific/technological innovation before reshaping social institutions
+- We should expect uneven distribution of these changes across different domains and populations
+
+<br/>
+
+---
+
+<br/>
 
 ## _Post-text_
 
-Realistically I think there will be many more changes than those I suggest above: robotics has progressed leaps and bounds, even in the worst case there's likely to be hundreds of billions more dollars invested in the space, military applications of this are being battle-tested, China's government will use this tool to attempt to control its increasingly educated and wealthy populace, deepfakes will happen and we'll need ways to detect them.... the list goes on and on. Assuming (as I do) that models also continue to fundamentally improve, this list of radical changes is only the tip of the iceberg. Given the lag time of the real world, however, I'd still say that there's a 2-year timeline on AGI unless we achieve deeply powerful ASI in the next year and a half. The degree of changes following that 2-year lag will just be drastically more profound than those outlined above.
+Realistically I think there will be many more changes than those I suggest above: robotics has progressed leaps and bounds, even in the worst case there's likely to be hundreds of billions more dollars invested in the space, military applications of this are being battle-tested, China's government will use this tool to attempt to control its increasingly educated and wealthy populace, deepfakes will happen and we'll need ways to detect them.... the list goes on and on. Assuming (as I do) that models also continue to fundamentally improve, this list of radical changes is only the tip of the iceberg. Given the lag time of the real world, however, I'd still say that there's a year and a half timeline on people 'feeling' AGI unless we achieve deeply powerful ASI in that time period. The degree of changes following that lag will just be drastically more profound than those outlined above.

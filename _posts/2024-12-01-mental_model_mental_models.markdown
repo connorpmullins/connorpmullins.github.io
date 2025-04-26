@@ -5,7 +5,7 @@ categories: mental_models
 tags: mental_models
 ---
 
-*Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk.*
+_Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
 Original Post Date: Dec. 1, 2024
 Last Updated: Dec. 2, 2024
 
@@ -15,10 +15,12 @@ Last Updated: Dec. 2, 2024
 <br>
 
 ### What are Mental Models?
+
 - Mental models are frameworks for how we understand aspects of the world.
 - Mental models need to be adaptive and update when presented with contrary information.
 
 ### How Can Mental Models Be Used?
+
 - Mental models can be used to simplify problem solving.
   - "First Principles Thinking" recommends breaking a problem down to its most basic elements and creating your solution from there
   - Mental models can serve as "first principles", though they can mislead if you don't challenge your assumptions or understand all the forces that bear on a situation

@@ -5,7 +5,7 @@ categories: mental_models
 tags: mental_models morality
 ---
 
-*Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk.*
+_Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
 
 Original Post Date: Nov. 17, 2024
 Last Updated:
@@ -27,6 +27,7 @@ Last Updated:
 <img src="/assets/whereWeAreGoing/indefinite-and-definite-thinking.png" style="width: 300px; max-width: 100%;">
 
 ### Morality
+
 - [Here's](/_posts/2024-11-18-mental_model_morality.markdown) a short post about how I think about morality.
 - A couple additional points:
   - We aren’t necessarily happier sipping Starbucks and wearing silk than we are in rags eating boiled mash.
@@ -39,18 +40,21 @@ Last Updated:
   - When I talk about “making things better,” I mean reducing the second category of suffering, not chasing temporary pleasures.
 
 ### The long-term view of history
+
 - The biggest mistake most people make when thinking about where we’re headed?
   - They forget the vast scale of human history and just how much it’s already changed.
 - For most people in most places, this is a relatively great time to be alive.
   - Many don’t think so.
   - All evidence (I've found so far) suggests they’re wrong.
-  - Obviously not *every* modern life is better than *every* historical life
+  - Obviously not _every_ modern life is better than _every_ historical life
     - But if you got assigned a place in society randomly at birth, being born more or less in the current day and age is your best bet for a good life
 
 <br>
 
 ## The implications of our baselines
+
 ---
+
 <br>
 - The reason the relative comfort and privilege of our modern day and age is worth bringing up is not to make people who are having a hard time feel like they should buck up and feel better
   - You're totally entitled to feel shitty, I'm sorry you're having a hard time.
@@ -114,23 +118,26 @@ Last Updated:
 ---
 <br>
 
-
 ## Deaths of despair and addressing mental health crisis
+
 - Is it worse now than before?
 - How hard of a problem is this?
+
 ---
+
 <br>
 
 ## Conclusion
+
 - It could go really badly
   - I can't do anything about that
 - There are many reasons to be over-the-moon about what we've accomplished and where we are in this moment
 - Our rate of scientific progress, which drives our ability to solve problems (**the main thing**), is not only still going up linearly, it's accelerating. It might even be about to accelerate exponentially
   - Assuming we don't destroy ourselves (and we impact this how we can), then we're on our way to solving so many terrible issues related to climate change, obesity, starvation, disease, poverty, and lack of access to education
-- TL;DR; - if the future doesn't suck, it's going to be *magical*
+- TL;DR; - if the future doesn't suck, it's going to be _magical_
 
 <br>
 ## Links and Resources
 ---
 <br>
-- 
+-

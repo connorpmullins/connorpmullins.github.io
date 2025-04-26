@@ -16,13 +16,17 @@ _Disclaimer - I'm getting this out of my head for my own sake and will improve t
 
 <br/>
 
-## Summary:
+## Summary
 
 This is my mental model for thinking about what constitutes artificial general intelligence and realistic timelines for when we'll feel its impact on society's most important aspects.
 
 It's intended to contrast a lot of the discussion I currently see around related topics, which is often too theoretical / divorced from real-world impacts. It also focuses on bear-case timelines / avoids ASI scenarios, which have been discussed elsewhere.
 
 <br/>
+
+## Update
+
+What I'm talking about in this article is often referred to as [Transformative Artificial Intelligence](https://forum.effectivealtruism.org/topics/transformative-artificial-intelligence). I'll keep the original phrasing for now, but for anyone reading, TAI is the accepted term for what I'm discussing.
 
 ---
 
@@ -65,7 +69,7 @@ Notably absent from the above list is "economic wellbeing." I'm considering econ
 
 Note that this is a random sampling meant to illustrate the types of changes that could occur. It's not exhaustive or ranked, and not all changes are equally likely.
 
-### Physical wellbeing:
+### Physical wellbeing
 
 - Personalized healthcare
 - New medical discoveries
@@ -112,7 +116,7 @@ Note that this is a random sampling meant to illustrate the types of changes tha
 - People don't live in fear of collapsing ecosystems
 - There is an abundance of biodiversity and everyone is able to experience it
 
-### People don't live in constant fear of death by nuclear war, bioweapons, natural disaster, etc.
+### People don't live in constant fear of death by nuclear war, bioweapons, natural disaster, etc
 
 - Existential risk is so reduced that most people don't think about it (through improved communication, governance, and economic cooperation)
 
@@ -120,7 +124,7 @@ Note that this is a random sampling meant to illustrate the types of changes tha
 
 - Breakthroughs in chemistry and biology allow lab grown meat substitutes for factory farmed meat
 
-## Avenues by which society changes:
+## Avenues by which society changes
 
 - Scientific and Technological Innovation
   - New Materials
@@ -161,11 +165,11 @@ Current SOTA models are already beginning to impact fields such as drug discover
 
 Even if SOTA models barely improve over the next couple years, I think it's likely that anyone who wants therapy will have a good therapist in their pocket. I'm not saying we'll replace human therapists, but peoples' access to mental care will fundamentally shift in the near term. I believe that AI will serve as an effective first line in healthcare, helping with preventative care and enabling doctors to get holistic context on their patients despite the fragmented medical documentation landscape. I'd put my bear-case timeline on how long it takes for people to first feel the impacts of this at 1-6 years.
 
-### Access to Opportunity
+### Increased Access to Opportunity
 
 If SOTA models plateau, we will still likely see a reshaping of the types of labor people do in the next 2-6 years. This will impact intelligence workers first. The impacts will also be a result of scaffolding as much as the models themselves - as agency is required to facilitate or replace labor. This change could be either positive or negative, but the change will be fundamental for many people. A positive outcome would be that intelligence workers have their productivity multiplied and are able to spur new waves of innovation. A negative outcome could be the loss of jobs to Language Models through labor price arbitrage similar to what we've seen with off-shoring. I'm interested in exploring this more, but for now it's enough to just say that a large portion of western society will fundamentally feel the impacts of AI on their work in 2-6 years.
 
-## Key Takeaways:
+## Key Takeaways
 
 - "AGI" isn't a single technology but a combination of core AI capabilities and the societal scaffolding that enables fundamental change
 - Even if AI capability plateaus soon, the impacts will be broadly felt within 2-6 years

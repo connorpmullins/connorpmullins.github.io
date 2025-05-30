@@ -87,6 +87,7 @@ This is being written in May of 2025. Claude 4 recently came out, and the time-h
 - The absolute value of great product managers will increase in the next 18 months
 - The absolute value of great UX Researchers will increase in the next 18 months
 - The absolute value of flexible Management (and organizations) will increase in the next 18 months
+- The marginal value of developers in organizations constrained in the above areas will decrease in the next 18 months
 
 <br/>
 

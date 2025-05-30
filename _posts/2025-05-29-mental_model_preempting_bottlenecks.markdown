@@ -21,8 +21,6 @@ AI tools are accelerating software development at an unprecedented pace. This em
 
 This post attempts to identify how organizations should re-prioritize and re-staff to best capture the increasing force-multiplier of AI tooling.
 
-The bulk of this discussion will related to changes in software development, with non-software tooling and its ramifications discussed at the end.
-
 <br/>
 
 ---

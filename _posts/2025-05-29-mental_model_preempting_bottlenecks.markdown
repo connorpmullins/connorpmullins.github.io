@@ -95,20 +95,6 @@ This is being written in May of 2025. Claude 4 recently came out, and the time-h
 
 <br/>
 
-## Areas for further exploration
-
-- Impact of remote work on bottleneck formation
-- Role of AI in organizational bottleneck prediction
-- Cultural factors in bottleneck prevention
-- Scaling strategies for high-growth organizations
-- Integration of human and AI decision-making
-
-<br/>
-
----
-
-<br/>
-
 ## Updates
 
 [Add a `###` section each time I encounter information that causes me to update my mental model. Explain what changed and reference the source]

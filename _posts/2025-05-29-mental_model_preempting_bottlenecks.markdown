@@ -5,7 +5,7 @@ categories: mental_models
 tags: mental_models, ai, organizations, management, productivity
 ---
 
-Last Updated: Mar. 19, 2024
+Last Updated: May 29, 2025
 
 _Disclaimer - I reserve the right to change my mind every time I encounter a new idea. I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mental Model: Pre-empting Bottlenecks in High-Talent Organizations"
+title: "Mental Model: Preempting Bottlenecks in High-Talent Organizations"
 categories: mental_models
 tags: mental_models, ai, organizations, management, productivity
 ---
@@ -62,7 +62,7 @@ This is being written in May of 2025. Claude 4 recently came out, and the time-h
 - There is increasing leverage in having an organization where developers contribute across multiple codebases
   - Developers will need less and less expertise to quickly contribute across multiple codebases and parts of the stack
   - Domain experts will continue to be valuable for vetting architectural decisions, but heavily-siloed organizations will be bottlenecked by those silos
-  - Rhe value-add of a mid-level developer who only writes code in one repo will continue to decrease
+  - The value-add of a mid-level developer who only writes code in one repo will continue to decrease
 
 ### How Design, Product, User Testing, and Management Should Change
 

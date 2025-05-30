@@ -79,7 +79,7 @@ This is being written in May of 2025. Claude 4 recently came out, and the time-h
 #### Addenda
 
 - The above is hardly true now, but will become more and more so over the next 18 months
-- The above also assumes that an organization is adapting to capture the value of new software development tools as described above
+- The above also assumes that an organization is adapting to capture the value of new software development tools as described in the previous section
 
 #### The implications of this world
 

@@ -33,7 +33,7 @@ This post attempts to identify how organizations should re-prioritize and re-sta
 
 This is being written in May of 2025. Claude 4 recently came out, and the time-horizon for when AI tools can fully replace junior and mid-level developers is measured in months, not years. The capabilities that will replace senior developers seem slightly farther in the horizon. The guidelines here are for the second half of 2025 and the start of 2026 and should be re-evaluated frequently as the field changes.
 
-### How Engineering Organizations Should Change
+### Regarding Engineering Organizations
 
 #### The World We're Trending Towards
 
@@ -55,7 +55,7 @@ This is being written in May of 2025. Claude 4 recently came out, and the time-h
 
 - There is increasing leverage in atomic, easy-to-test, and easy-to-read code
   - Atomic code is easy for developers unfamiliar with a codebase to quickly reason about, increasing the organizational scale at which individual developers can operate
-- **Untested, hard-to-understand code isn't worth writing more of**
+- Untested, hard-to-understand code isn't worth writing more of
   - So this code almost entirely loses the early leverage provided by new tooling
   - This becomes less true as tooling gets good enough to effectively refactor codebases, but there will still be a multi-month advantage to organizations that are quick to refactor
 - Having a static ruleset to convey architectural norms is (in the near term) critical for capturing force-multiplying effects of AI tooling
@@ -64,7 +64,7 @@ This is being written in May of 2025. Claude 4 recently came out, and the time-h
   - Domain experts will continue to be valuable for vetting architectural decisions, but heavily-siloed organizations will be bottlenecked by those silos
   - The value-add of a mid-level developer who only writes code in one repo will continue to decrease
 
-### How Design, Product, User Testing, and Management Should Change
+### Regarding Design, Product, User Testing, and Management
 
 #### The World We're Trending Towards
 

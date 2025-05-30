@@ -19,7 +19,7 @@ _Disclaimer - I reserve the right to change my mind every time I encounter a new
 
 AI tools are accelerating software development at an unprecedented pace. This emerging paradigm will continue to gain speed, rewarding agile organizations that anticipate and adapt to new bottlenecks as coding becomes faster and cheaper.
 
-This post attempts to identify how organizations should re-tool and re-staff to best capture the increasing force-multiplier of AI tooling.
+This post attempts to identify how organizations should re-prioritize and re-staff to best capture the increasing force-multiplier of AI tooling.
 
 The bulk of this discussion will related to changes in software development, with non-software tooling and its ramifications discussed at the end.
 

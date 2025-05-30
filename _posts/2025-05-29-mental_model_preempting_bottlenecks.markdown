@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mental Model: Pre-empting Bottlenecks in High-Talent AI-Leveraged Organizations"
+title: "Mental Model: Pre-empting Bottlenecks in High-Talent Organizations"
 categories: mental_models
 tags: mental_models, ai, organizations, management, productivity
 ---

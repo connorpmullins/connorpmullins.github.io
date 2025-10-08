@@ -1,0 +1,138 @@
+---
+layout: default
+---
+
+<div class="home-hero">
+  <div class="home-hero-content">
+    <span class="eyebrow">Mental models • Foresight • Creative practice</span>
+    <h1>Designing a thoughtful life in a fast-moving world.</h1>
+    <p>{{ site.description | escape }}</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#latest">Read the latest thinking →</a>
+      <a class="button secondary" href="{{ '/about/' | relative_url }}">Learn more about Connor</a>
+    </div>
+  </div>
+</div>
+
+<section class="section" id="pillars">
+  <h2 class="section-heading">Creative pillars</h2>
+  <p class="section-subtitle">The threads that keep resurfacing in my notebooks: frameworks for navigating the future, experiments in creative collaboration, and the aesthetics of living well.</p>
+  <div class="pillars-grid">
+    <article class="pillar-card">
+      <div class="emoji">🧭</div>
+      <h3>Mental model library</h3>
+      <p>Working notes on how I process the world—decision heuristics, moral frameworks, and resilient ways to think about complexity.</p>
+      <a href="#mental-models">Browse recent models →</a>
+    </article>
+    <article class="pillar-card">
+      <div class="emoji">🛠️</div>
+      <h3>Idea greenhouse</h3>
+      <p>Half-built projects, prompts for collaborators, and experiments that might become the next thing worth shipping.</p>
+      <a href="#ideas">See what I'm prototyping →</a>
+    </article>
+    <article class="pillar-card">
+      <div class="emoji">🤖</div>
+      <h3>Signals I'm tracking</h3>
+      <p>Notes on AI, cultural shifts, and emerging technologies that could bend the arc of what's possible.</p>
+      <a href="#signals">Catch the latest signals →</a>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <h2 class="section-heading">Latest writing</h2>
+  <p class="section-subtitle">Fresh reflections, sense-making, and personal updates. I keep these essays living, updating them as my thinking evolves.</p>
+  <div class="post-grid">
+    {% assign latest_posts = site.posts | slice: 0, 6 %}
+    {% for post in latest_posts %}
+      <article class="post-card">
+        <div class="meta">
+          <span>🗓️ {{ post.date | date: "%b %d, %Y" }}</span>
+          {% if post.categories.size > 0 %}
+            <span>🏷️ {{ post.categories | join: ', ' }}</span>
+          {% endif %}
+        </div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        {% endif %}
+        <a class="button secondary" href="{{ post.url | relative_url }}">Open note →</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% assign mental_models = site.categories.mental_models | slice: 0, 5 %}
+{% if mental_models and mental_models.size > 0 %}
+  <section class="catalogue-section" id="mental-models">
+    <header>
+      <span class="eyebrow">Mental models</span>
+      <h2>Operating systems for better decisions</h2>
+      <p>Long-form research notes that distill philosophy, systems thinking, and personal experience into reusable frameworks.</p>
+    </header>
+    <div class="post-list">
+      {% for post in mental_models %}
+        <article class="post-item">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          {% endif %}
+          <div class="meta">
+            <span>Updated {{ post.date | date_to_long_string }}</span>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% assign idea_posts = site.categories.random_ideas | slice: 0, 5 %}
+{% if idea_posts and idea_posts.size > 0 %}
+  <section class="catalogue-section" id="ideas">
+    <header>
+      <span class="eyebrow">Idea greenhouse</span>
+      <h2>Projects on the workbench</h2>
+      <p>Artifacts in progress—tools I wish existed, collaborations I'm courting, and curiosities I can't stop interrogating.</p>
+    </header>
+    <div class="post-list">
+      {% for post in idea_posts %}
+        <article class="post-item">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          {% endif %}
+          <div class="meta">
+            <span>Filed {{ post.date | date: "%b %d, %Y" }}</span>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+{% assign signal_posts = site.categories.ai | slice: 0, 4 %}
+{% if signal_posts and signal_posts.size > 0 %}
+  <section class="section" id="signals">
+    <h2 class="section-heading">Signals I'm tracking</h2>
+    <p class="section-subtitle">Snapshots of how AI, governance, and culture are mutating right now. These notes keep me honest about what deserves attention.</p>
+    <div class="signal-grid">
+      {% for post in signal_posts %}
+        <article class="signal-card">
+          <div class="meta">{{ post.date | date: "%b %d, %Y" }}</div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          {% endif %}
+          <a class="button secondary" href="{{ post.url | relative_url }}">Read snapshot →</a>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+<section class="testimonial">
+  <blockquote>
+    "I'm documenting the mental architecture that lets me stay curious, act decisively, and create work that feels like me. If any of it resonates, reach out—I'd love to compare notes."
+  </blockquote>
+  <cite>Connor Mullins</cite>
+</section>

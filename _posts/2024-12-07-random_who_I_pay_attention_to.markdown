@@ -6,7 +6,7 @@ tags: mental_models
 ---
 
 Original Post Date: Dec. 7, 2024
-Last Updated:
+Last Updated: Not 10, 2025
 
 _Disclaimer - I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
 
@@ -26,7 +26,21 @@ This is a overview of the people I pay attention to and some of their key works.
 
 <br/>
 
-## People:
+## Economics
+
+### Joseph Stiglitz
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Joseph_Stiglitz)
+- Books
+  - [Power, People, and Profits](https://www.goodreads.com/book/show/43726589-people-power-and-profits)
+    - Good overview of the ways in which free market fundamentalism has failed America over the last 40 years and what we can do to fix what's broken
+
+### Ha-Joon Chang
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Ha-Joon_Chang)
+-
+
+## Technology
 
 ### Dario Amodei
 
@@ -36,7 +50,8 @@ This is a overview of the people I pay attention to and some of their key works.
   - [Machines of Loving Grace](https://darioamodei.com/machines-of-loving-grace)
   - [Lex Fridman Interview](https://www.youtube.com/watch?v=ugvHCXCOmm4)
   - [Main Blog](https://darioamodei.com/) (you can subscribe to get updates)
-    <br/>
+
+<br/>
 
 ### Dwarkesh Patel
 
@@ -47,6 +62,17 @@ This is a overview of the people I pay attention to and some of their key works.
   - [The Dwarkesh Podcast](https://open.spotify.com/show/4JH4tybY1zX6e5hjCwU6gF)
   - [Will Scaling Work](https://www.dwarkeshpatel.com/p/will-scaling-work)
     <br/>
+
+## Politics
+
+## Philosophy
+
+### David Deutsch
+
+- A bit esoteric for my tastes, but he's got some neat stuff
+- https://www.daviddeutsch.org.uk/
+
+## Environment
 
 ### Hannah Ritchie
 
@@ -65,6 +91,12 @@ This is a overview of the people I pay attention to and some of their key works.
 
 -
 
+## Other
+
+### Adam Grant
+
+- https://adamgrant.substack.com/
+
 ### Gwern
 
 - Field(s): AI, Tea, Anything they're interested in
@@ -73,30 +105,10 @@ This is a overview of the people I pay attention to and some of their key works.
 - Recommended content:
   - [Tea Reviews](https://gwern.net/review/tea)
   - [Epigrams](https://gwern.net/epigram)
-  <!--
-
-### Richard Feynman
-
-- [Literally one of my favorite things to watch ever](https://www.youtube.com/watch?v=nYg6jzotiAc&t=0s)
-- -->
-
-### AJ Leon
-
-- Gotta admit this is more of a personal hero than thought leader
-- I wish we were friends
-
-### Adam Grant
-
-- https://adamgrant.substack.com/
-
-### David Deutsch
-
-- A bit esoteric for my tastes, but he's got some neat stuff
-- https://www.daviddeutsch.org.uk/
 
 ### Jacky Chen
 
-- Best friend,
+- Best friend, good aggregator of ideas
 
 <br/>
 

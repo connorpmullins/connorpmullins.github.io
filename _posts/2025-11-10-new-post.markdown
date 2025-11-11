@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Mental Model: Good Economics"
+categories: mental_models
+tags: economics
+---
+
+Original Post Date: 2025-11-10
+Last Updated:
+
+_Disclaimer - I'm getting this out of my head for my own sake and will improve these posts as I have the time. Engage at your own risk._
+
+<br/>
+
+---
+
+<br/>
+
+## Summary:
+
+Competition and the free market has enabled great ideas, inventions, and products to proliferate at an astonishing rate over the last few hundred years. My thoughts on economics up to this point can be summarized as "Capitalism is a wonderful thing as long as the government protects citizens and the environment and limits the power of monopolies".
+
+The above sentiment is a fine starting point, but is too general to enable me to identify exactly what is most wrong with modern economics and where there might be opportunity or leverage to help effect change.
+
+In this post I want to:
+
+1. Identify what criteria a well-functioning economic system ought to meet
+2. Identify what exactly about modern economics is most broken
+3. Identify potential solutions to each of the issues enumerated above
+4. Classify the above solutions by whether they can be addressed through local, state, national, or international policy
+5. Pull together a reading list to further develop my thinking
+
+## Main Content:
+
+## Key Takeaways:
+
+## References:

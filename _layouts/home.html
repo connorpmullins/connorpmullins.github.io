@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<main class="canvas">
+  <section class="hero">
+    <p class="hero__eyebrow">{{ page.hero_eyebrow | default: "Mapping the landscape of my curiosity" }}</p>
+    <h1 class="hero__title">{{ page.hero_title | default: site.description }}</h1>
+    {% if page.hero_subtitle %}
+      <p class="hero__subtitle">{{ page.hero_subtitle }}</p>
+    {% endif %}
+    {% if page.hero_cta %}
+      <div class="hero__cta">
+        <a class="button" href="{{ page.hero_cta.url }}">{{ page.hero_cta.label }}</a>
+      </div>
+    {% endif %}
+  </section>
+
+  {% if page.pillars %}
+    <section class="pillars" aria-labelledby="pillars-heading">
+      <div class="section-heading">
+        <h2 id="pillars-heading">Focus areas</h2>
+        <p>Threads I tug on the most often. Each one is a portal into the questions I can't stop asking.</p>
+      </div>
+      <div class="pillars__grid">
+        {% for pillar in page.pillars %}
+          <article class="pillar">
+            <h3>{{ pillar.title }}</h3>
+            <p>{{ pillar.description }}</p>
+            {% if pillar.links %}
+              <ul class="pillar__links">
+                {% for link in pillar.links %}
+                  <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="latest" aria-labelledby="latest-heading">
+    <div class="section-heading">
+      <h2 id="latest-heading">Fresh writing</h2>
+      <p>Recent explorations, frameworks in-progress, and mental models under revision.</p>
+    </div>
+    <div class="latest__list">
+      {% assign recent_posts = site.posts | slice: 0, page.latest_post_count | default: 6 %}
+      {% for post in recent_posts %}
+        <article class="latest__item">
+          <p class="latest__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.excerpt %}
+            <p class="latest__excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+          {% endif %}
+          <div class="latest__tags">
+            {% for tag in post.tags limit:3 %}
+              <span class="tag">{{ tag | replace: '_', ' ' }}</span>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if page.meta_sections %}
+    <section class="meta" aria-labelledby="meta-heading">
+      <div class="section-heading">
+        <h2 id="meta-heading">How I operate</h2>
+        <p>The principles, rituals, and containers that keep my curiosity grounded.</p>
+      </div>
+      <div class="meta__grid">
+        {% for block in page.meta_sections %}
+          <article class="meta__card">
+            <h3>{{ block.title }}</h3>
+            <p>{{ block.description }}</p>
+            {% if block.callout %}
+              <p class="meta__callout">{{ block.callout }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</main>
